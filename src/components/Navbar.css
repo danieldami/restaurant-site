@@ -11,7 +11,7 @@
 }
 
 .navbar.scrolled {
-    background-color: rgba(26, 26, 26, 0.95);
+    background-color: rgba(255, 255, 255, 0.95);
     /* Dark background when scrolled */
     padding: 10px 0;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
@@ -30,7 +30,7 @@
     font-family: var(--font-heading);
     font-weight: 900;
     font-size: 1.5rem;
-    color: white;
+    color: var(--color-primary);
     text-transform: uppercase;
     letter-spacing: 1px;
 }
@@ -44,7 +44,7 @@
     font-family: var(--font-body);
     font-size: 1rem;
     font-weight: 400;
-    color: white;
+    color: #1a1a1a;
     position: relative;
 }
 
@@ -61,7 +61,7 @@
 .cart-icon {
     font-size: 1.2rem;
     cursor: pointer;
-    color: white;
+    color: #1a1a1a;
 }
 
 @media (max-width: 768px) {

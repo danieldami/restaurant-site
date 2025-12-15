@@ -1,6 +1,6 @@
 .menu-section {
-    background-color: #111;
-    /* Slightly darker */
+    background-color: #f9f9f9;
+    /* Light gray */
 }
 
 .center {
@@ -20,14 +20,14 @@
 }
 
 .menu-item-card {
-    background-color: #1a1a1a;
-    /* Lighter dark */
+    background-color: #ffffff;
+    /* White card */
     border-radius: 15px;
     overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     position: relative;
-    border: 1px solid #333;
-    /* Subtle border for definition */
+    border: 1px solid #eee;
+    /* Light border */
 }
 
 .menu-item-card:hover {
@@ -59,7 +59,7 @@
 .menu-name {
     font-size: 1.2rem;
     margin-bottom: 10px;
-    color: white;
+    color: #1a1a1a;
 }
 
 .menu-price {
