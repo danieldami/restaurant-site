@@ -3,7 +3,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 0;
+    padding: 25px 0;
     z-index: 1000;
     transition: background-color 0.3s ease, padding 0.3s ease;
     background-color: transparent;
@@ -11,10 +11,10 @@
 }
 
 .navbar.scrolled {
-    background-color: rgba(255, 255, 255, 0.95);
+    background-color: var(--color-bg-overlay);
     /* Dark background when scrolled */
-    padding: 10px 0;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    padding: 15px 0;
+    box-shadow: 0 2px 10px rgba(44, 36, 32, 0.1);
 }
 
 .navbar-container {

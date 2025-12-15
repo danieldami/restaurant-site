@@ -1,6 +1,6 @@
 .menu-section {
-    background-color: #f9f9f9;
-    /* Light gray */
+    background-color: transparent;
+    /* Uses body bg */
 }
 
 .center {
@@ -15,13 +15,13 @@
 
 .menu-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
 }
 
 .menu-item-card {
-    background-color: #ffffff;
-    /* White card */
+    background-color: var(--color-bg-card);
+    /* Cream card */
     border-radius: 15px;
     overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -52,7 +52,7 @@
 }
 
 .menu-details {
-    padding: 20px;
+    padding: 30px;
     text-align: center;
 }
 

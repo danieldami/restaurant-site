@@ -1,6 +1,6 @@
 .testimonials-section {
-    background-color: var(--color-bg-dark);
-    /* Match base dark */
+    background-color: #F0EBE0;
+    /* Darker cream/beige */
 }
 
 .testimonials-grid {
@@ -10,8 +10,8 @@
 }
 
 .testimonial-card {
-    background-color: #f0f0f0;
-    /* Light gray */
+    background-color: var(--color-bg-card);
+    /* Cream card */
     padding: 30px;
     border-radius: 10px;
     position: relative;
@@ -27,7 +27,7 @@
     /* Using heading font for quote styling as per design vibe */
     font-style: italic;
     font-size: 1.2rem;
-    color: #1a1a1a;
+    color: var(--color-text-main);
     margin-bottom: 20px;
     line-height: 1.4;
 }

@@ -1,9 +1,10 @@
 .footer {
-    background-color: #f2f2f2;
-    /* Light gray */
-    padding: 80px 0 20px;
-    color: #1a1a1a;
-    border-top: 1px solid #ddd;
+    background-color: var(--color-bg-dark);
+    /* Dark Brown */
+    padding: 100px 0 30px;
+    color: var(--color-bg-body);
+    /* Cream text */
+    border-top: none;
 }
 
 .footer-container {
@@ -14,7 +15,7 @@
 }
 
 .footer-logo {
-    color: var(--color-primary);
+    color: var(--color-bg-body);
     font-size: 1.8rem;
     margin-bottom: 20px;
 }
@@ -41,7 +42,7 @@
 .social-links a {
     width: 40px;
     height: 40px;
-    background-color: #222;
+    background-color: rgba(253, 251, 247, 0.1);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -57,5 +58,5 @@
     padding-top: 20px;
     border-top: 1px solid #ddd;
     font-size: 0.9rem;
-    color: #555;
+    color: rgba(253, 251, 247, 0.5);
 }

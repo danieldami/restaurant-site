@@ -1,17 +1,24 @@
 :root {
-  --color-primary: rgb(196, 30, 58);
-  --color-primary-dark: rgb(150, 20, 40);
-  --color-text-main: #1a1a1a;
-  /* Dark text */
-  --color-text-muted: rgba(0, 0, 0, 0.7);
-  --color-bg-dark: #ffffff;
-  /* Light background */
-  --color-bg-overlay: rgba(255, 255, 255, 0.9);
+  --color-primary: #BF2C2C;
+  /* Slightly warmer red */
+  --color-primary-dark: #961E1E;
+  --color-text-main: #2C2420;
+  /* Dark Brown */
+  --color-text-muted: rgba(44, 36, 32, 0.7);
+  --color-bg-body: #FDFBF7;
+  /* Warm Cream */
+  --color-bg-card: #FFFDF9;
+  /* Lighter Cream for cards */
+  --color-bg-dark: #2C2420;
+  /* Dark Brown for Footer/Contrast */
+  --color-bg-overlay: rgba(253, 251, 247, 0.95);
 
   --font-heading: 'Rubik', sans-serif;
   --font-body: 'Archivo', sans-serif;
 
-  --section-padding: 80px 20px;
+  --section-padding: 120px 40px;
+  /* Increased spacing */
+  --section-padding-mobile: 80px 20px;
   --max-width: 1200px;
 }
 
@@ -23,7 +30,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: var(--font-body);
-  background-color: var(--color-bg-dark);
+  background-color: var(--color-bg-body);
   color: var(--color-text-main);
   -webkit-font-smoothing: antialiased;
 }
